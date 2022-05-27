@@ -19,15 +19,15 @@
                 <div class="logo">
                     <a href="weddingPage.html">P & P</a>
                 </div>
-                <div class="nav">
+                <div class="nav" id="nav">
                     <ul>
-                        <li><a href="#homeSection">Home</a></li>
-                        <li><a href="#coupleSection">Couple</a></li>
-                        <li><a href="#storySection">Story</a></li>
-                        <li><a href="#eventSection">Events</a></li>
-                        <li><a href="#peopleSection">People</a></li>
-                        <li><a href="#gallerySection">Gallery</a></li>
-                        <li><a href="#rsvpSection">RSVP</a></li>
+                        <li><a href="#" data-scroll-nav="1" class="">Home</a></li>
+                        <li><a href="#" data-scroll-nav="2" class="">Couple</a></li>
+                        <li><a href="#" data-scroll-nav="3" class="">Story</a></li>
+                        <li><a href="#" data-scroll-nav="4" class="">Events</a></li>
+                        <li><a href="#" data-scroll-nav="5" class="">People</a></li>
+                        <li><a href="#" data-scroll-nav="6" class="">Gallery</a></li>
+                        <li><a href="#" data-scroll-nav="7" class="">RSVP</a></li>
                     </ul>
                 </div>
 
@@ -38,7 +38,7 @@
     <!--Header End-->
 
     <!--Home Section Start-->
-    <section class="home-section" id="homeSection">
+    <section class="home-section" id="homeSection" data-scroll-index="1">
         <!--slide start-->
         <div class="slide active" style="background-image: url('img/slides/slide-1.jpg');">
             <div class="container">
@@ -80,12 +80,10 @@
         <!--slide stop-->
 
     </section>
-    <!--jquery-->
-
     <!--Home Section End-->
 
     <!--Couple Section Start-->
-    <section class="couple-section" id="coupleSection">
+    <section class="couple-section" id="coupleSection" data-scroll-index="2">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -146,12 +144,10 @@
             </div>
         </div>
     </section>
-
     <!--Couple Section End-->
 
-
     <!--Story Section Start-->
-    <section class="story-section" id="storySection">
+    <section class="story-section" id="storySection" data-scroll-index="3">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -233,12 +229,10 @@
 
         </div>
     </section>
-
     <!--Story Section End-->
 
-
     <!--Events Section Start-->
-    <section class="event-section" id="eventSection">
+    <section class="event-section" id="eventSection" data-scroll-index="4">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-title">
@@ -274,12 +268,10 @@
             </div>
         </div>
     </section>
-
     <!--Events Section End-->
 
-
     <!--People Section Start-->
-    <section class="people-section" id="peopleSection">
+    <section class="people-section" id="peopleSection" data-scroll-index="5">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -397,8 +389,9 @@
         </div>
     </section>
     <!--People Section End-->
+
     <!--Gallery Section Start-->
-    <section class="gallery-section" id="gallerySection">
+    <section class="gallery-section" id="gallerySection" data-scroll-index="6">
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -479,7 +472,7 @@
     </div>
     <!-- Gallery popup stop-->
     <!--RSVP Section Start-->
-    <section class="rsvp-section" id="rsvpSection">
+    <section class="rsvp-section" id="rsvpSection" data-scroll-index="7">
 
         <div class="container">
             <div class="row">
@@ -535,7 +528,6 @@
             </div>
         </div>
     </section>
-
     <!--RSVP Section End-->
 
     <!--footer start-->
@@ -559,11 +551,14 @@
     <!--footer end-->
     <!-- copyright start-->
     <p class="copyright-text">copyright &copy; 2022 The Webshla</p>
-    
+
 
 </body>
 <!-- copyright end-->
 <script src="js/jquery.min.js"></script>
 <!--javascript main-->
 <script type="module" src="js/main.js"></script>
+
+<script src="js/scrollIt.min.js" type="text/javascript"></script>
+
 </html>
