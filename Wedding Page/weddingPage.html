@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/skins/pink.css">
     <title>Document</title>
-
 </head>
 
 <body>
@@ -268,7 +267,7 @@
                         <span class="time">5:00 - 7:00pm</span>
                         <p>{ Shagun Farm}</p>
                         <p>Bắc Từ Liêm ,Hà Nội , Việt Nam</p>
-                        <img src="img/icons/flower.svg"alt="event">
+                        <img src="img/icons/flower.svg" alt="event">
                     </div>
                 </div>
                 <!--item 2 end-->
@@ -280,40 +279,293 @@
 
 
     <!--People Section Start-->
-<section class="people-section">
-    <div class="container">
-        <div class="row">
-            <div class="section-title">
-                <h2>People</h2>
+    <section class="people-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>People</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="people-filter active">
+                    <button class="filter-btn active" onclick="changeBridgemaid()" id="groomsmen"
+                        value="groomsmen">Groomsmen</button>
+                    <button class="filter-btn" onclick="changeGroomsmen()" id="bridesmaid"
+                        value="bridesmaid">Bridesmaid</button>
+
+                </div>
+                <!--people start-->
+                <div class="row justify-content-center">
+                    <!-- people item start-->
+                    <div class="people-item">
+                        <div class="people-item-inner">
+                            <img src="img/groomsmen/1.jpg" id="image1" alt="groomsmen">
+                            <h4>Monu Singk</h4>
+                            <p> Best Friends</p>
+                            <div class="social-links">
+                                <a href="#" title="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" title="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" title="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" title="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--people item end-->
+                    <!-- people item start-->
+                    <div class="people-item">
+                        <div class="people-item-inner">
+                            <img src="img/groomsmen/2.jpg" id="image2" alt="groomsmen">
+                            <h4>Monu Singk</h4>
+                            <p> Best Friends</p>
+                            <div class="social-links">
+                                <a href="#" title="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" title="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" title="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" title="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--people item end-->
+                    <!-- people item start-->
+                    <div class="people-item">
+                        <div class="people-item-inner">
+                            <img src="img/groomsmen/3.jpg" id="image3" alt="groomsmen">
+                            <h4>Monu Singk</h4>
+                            <p> Best Friends</p>
+                            <div class="social-links">
+                                <a href="#" title="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" title="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" title="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" title="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--people item end-->
+                    <!-- people item start-->
+                    <div class="people-item">
+                        <div class="people-item-inner">
+                            <img src="img/groomsmen/4.jpg" id="image4" alt="groomsmen">
+                            <h4>Monu Singk</h4>
+                            <p> Best Friends</p>
+                            <div class="social-links">
+                                <a href="#" title="facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" title="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" title="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" title="linkedin">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--people item end-->
+
+                </div>
+                <!--people end-->
+            </div>
+
+        </div>
+    </section>
+    <!--People Section End-->
+    <!--Gallery Section Start-->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2> Our Memories</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- gallery item start -->
+                <div class="gallery-item" id="picture1">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/1.jpg" data-large="img/gallery/thumb/1.jpg" onclick="showPicture(1)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
+                <!-- gallery item start -->
+                <div class="gallery-item" id="picture2">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/2.jpg" data-large="img/gallery/thumb/2.jpg" onclick="showPicture(2)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
+                <!-- gallery item start -->
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/3.jpg" data-large="img/gallery/thumb/3.jpg" onclick="showPicture(3)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
+                <!-- gallery item start -->
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/4.jpg" data-large="img/gallery/thumb/4.jpg" onclick="showPicture(4)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
+                <!-- gallery item start -->
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/5.jpg" data-large="img/gallery/thumb/5.jpg" onclick="showPicture(5)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
+                <!-- gallery item start -->
+                <div class="gallery-item">
+                    <div class="gallery-item-inner">
+                        <img src="img/gallery/thumb/6.jpg" data-large="img/gallery/thumb/6.jpg" onclick="showPicture(6)"
+                            alt="couple gallery">
+                    </div>
+                </div>
+                <!--gallery item stop-->
             </div>
         </div>
-        <div class="rox">
-            <div class="people-filter">
-                <a href="javascript:void(0);" class="filter-btn" data-target="groomsmen">Groomsmen</a>
-                <a href="javascript:void(0);" class="filter-btn" data-target="bridesmaid">Bridesmaid</a>
+    </section>
+
+    <!--Gallery Section End-->
+    <!-- Gallery popup start-->
+    <div class="show-popup" id="show-popup">
+        <div class="gallery-popup" id="gallery-popup">
+            <div class="gp-container">
+                <div class="gp-counter">1/6</div>
+                <div class="gp-close" onclick="closePicture()">&times;</div>
+                <img src="img/gallery/large/1.jpg" alt="gallery img" id="imgPopup">
+                <div class="gp-controls">
+                    <div class="prev" onclick="prev(index)">
+                        <i class="fas fa-angle-left"></i>
+                    </div>
+                    <div class="next" onclick="next(index)">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
-
-    <!--People Section End-->
-
-
-    <!--Gallery Section Start-->
-
-
-    <!--Gallery Section End-->
-
+    <!-- Gallery popup stop-->
     <!--RSVP Section Start-->
+    <section class="rsvp-section">
 
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>Your Are Invited</h2>
+                    <p>Please kindly response before 3 Dec 2022</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rsvp-form">
+                    <form class="form">
+                        <div class="row">
+                            <div class="input-group w50">
+                                <input type="text" placeholder="Name" class="input-control">
+                            </div>
+                            <div class="input-group w50">
+                                <input type="text" placeholder="Email" class="input-control">
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <select class="input-control">
+                                    <option value="">Number of Guest</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <select class="input-control">
+                                    <option value="I am attending">I am attending</option>
+                                    <option value="I am not attending">I am not attending</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <textarea placeholder="Message" class="input-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group">
+                                <button type="submit" class="btn-1">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!--RSVP Section End-->
+
+    <!--footer start-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-content">
+                    <div class="couple-name">
+                        <img src="img/flower-circle.png" alt="wedding couple">
+                        <h2>Pig
+                            <span>&</span>
+                            Phương
+                        </h2>
+                    </div>
+                    <p>Thank you</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--footer end-->
+    <!-- copyright start-->
+    <p class="copyright-text">copyright &copy; 2022 The Webshla</p>
+    <!-- copyright end-->
     <script src="js/jquery.min.js"></script>
     <!--javascript main-->
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 
 </body>
-
-
+<script src="js/changPeople.js"></script>
+<script src="js/popupGallery.js"></script>
 
 </html>
