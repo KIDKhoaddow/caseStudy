@@ -32,7 +32,7 @@ $(window).on("load", function () {
 
 })
 
-$.scrollIt({activeClass: "active",topOffset: 10 });
+$.scrollIt({activeClass: "active",topOffset: 200 });
 
 
 
