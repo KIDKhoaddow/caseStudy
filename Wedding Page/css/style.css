@@ -711,7 +711,7 @@ footer {
     text-align: center;
     line-height: 38px;
     overflow: hidden;
-    cursor :zoom-out;
+    cursor :pointer;
 
 }
 .gallery-popup .gp-controls{
